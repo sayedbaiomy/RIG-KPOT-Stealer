@@ -1,0 +1,232 @@
+
+==========================================================================================
+FILE: /mnt/user-data/uploads/2019-06-22-traffic-analysis-exercise.pcap   (main)
+Total packets: 7103
+==========================================================================================
+
+Capture time span: 232.2 seconds
+Start: 2019-06-22 23:46:30.373494 UTC
+End:   2019-06-22 23:50:22.558507 UTC
+
+--- Top IP conversations (by bytes) ---
+  37.46.135.170    -> 10.0.76.109        pkts=  864  bytes=  1264854
+  10.0.76.109      -> 8.209.83.76        pkts=  501  bytes=   715181
+  31.13.65.7       -> 10.0.76.193        pkts=  490  bytes=   564230
+  35.226.156.55    -> 10.0.76.193        pkts=  327  bytes=   314677
+  64.233.185.94    -> 10.0.76.193        pkts=  153  bytes=   202914
+  72.21.91.66      -> 10.0.76.193        pkts=  130  bytes=   165220
+  64.233.185.103   -> 10.0.76.193        pkts=  162  bytes=   160187
+  54.192.207.126   -> 10.0.76.193        pkts=  121  bytes=   134441
+  10.0.76.193      -> 10.0.76.6          pkts=  388  bytes=    91111
+  10.0.76.109      -> 10.0.76.6          pkts=  362  bytes=    89380
+  10.0.76.6        -> 10.0.76.193        pkts=  355  bytes=    80710
+  74.125.136.102   -> 10.0.76.193        pkts=   83  bytes=    79792
+  216.58.193.163   -> 10.0.76.193        pkts=   75  bytes=    77409
+  10.0.76.6        -> 10.0.76.109        pkts=  324  bytes=    77367
+  31.13.65.36      -> 10.0.76.193        pkts=  100  bytes=    54970
+  72.21.81.200     -> 10.0.76.109        pkts=   45  bytes=    49919
+  172.217.164.74   -> 10.0.76.193        pkts=   34  bytes=    35810
+  10.0.76.193      -> 35.226.156.55      pkts=  253  bytes=    31558
+  173.194.219.97   -> 10.0.76.193        pkts=   34  bytes=    28321
+  10.0.76.193      -> 31.13.65.7         pkts=  315  bytes=    22294
+
+--- Unique DNS queries (83 total queries) ---
+  _ldap._tcp.dc._msdcs.phenomenoc.com  (type=33, from 10.0.76.193)
+  phenomenoc-dc.phenomenoc.com  (type=1, from 10.0.76.193)
+  _ldap._tcp.Default-First-Site-Name._sites.dc._msdcs.phenomenoc.com  (type=33, from 10.0.76.193)
+  _ldap._tcp.Default-First-Site-Name._sites.phenomenoc.com  (type=33, from 10.0.76.193)
+  _ldap._tcp.Default-First-Site-Name._sites.ForestDnsZones.phenomenoc.com  (type=33, from 10.0.76.193)
+  _ldap._tcp.Default-First-Site-Name._sites.DomainDnsZones.phenomenoc.com  (type=33, from 10.0.76.193)
+  wpad.phenomenoc.com  (type=1, from 10.0.76.193)
+  Phenomenoc-DC.phenomenoc.com  (type=1, from 10.0.76.193)
+  isatap.phenomenoc.com  (type=1, from 10.0.76.193)
+  wpad.localdomain  (type=1, from 10.0.76.193)
+  isatap.localdomain  (type=1, from 10.0.76.193)
+  _ldap._tcp.Default-First-Site-Name._sites.Phenomenoc-DC.phenomenoc.com  (type=33, from 10.0.76.193)
+  _ldap._tcp.Phenomenoc-DC.phenomenoc.com  (type=33, from 10.0.76.193)
+  Bristol-c71f-PC.phenomenoc.com  (type=6, from 10.0.76.193)
+  phenomenoc.com  (type=6, from 10.0.76.193)
+  www.msftncsi.com  (type=1, from 10.0.76.193)
+  Bangkok-8ac2-PC.phenomenoc.com  (type=6, from 10.0.76.109)
+  dns.msftncsi.com  (type=1, from 10.0.76.109)
+  beef2live.com  (type=1, from 10.0.76.193)
+  ajax.googleapis.com  (type=1, from 10.0.76.193)
+  www.google.com  (type=1, from 10.0.76.193)
+  portal.farmcentric.com  (type=1, from 10.0.76.193)
+  www.googletagmanager.com  (type=1, from 10.0.76.193)
+  www.googleadservices.com  (type=1, from 10.0.76.193)
+  googleads.g.doubleclick.net  (type=1, from 10.0.76.193)
+  www.google-analytics.com  (type=1, from 10.0.76.193)
+  connect.facebook.net  (type=1, from 10.0.76.193)
+  cse.google.com  (type=1, from 10.0.76.193)
+  platform.twitter.com  (type=1, from 10.0.76.193)
+  www.gstatic.com  (type=1, from 10.0.76.193)
+  staticxx.facebook.com  (type=1, from 10.0.76.193)
+  www.facebook.com  (type=1, from 10.0.76.193)
+  www.googleapis.com  (type=1, from 10.0.76.193)
+  clients1.google.com  (type=1, from 10.0.76.193)
+  fonts.gstatic.com  (type=1, from 10.0.76.193)
+  syndication.twitter.com  (type=1, from 10.0.76.193)
+  api.bing.com  (type=1, from 10.0.76.193)
+  www.bing.com  (type=1, from 10.0.76.193)
+  ssl.gstatic.com  (type=1, from 10.0.76.193)
+  bid.g.doubleclick.net  (type=1, from 10.0.76.193)
+  static.xx.fbcdn.net  (type=1, from 10.0.76.193)
+  letsdoitquick.site  (type=1, from 10.0.76.109)
+  iecvlist.microsoft.com  (type=1, from 10.0.76.193)
+  fghjkmgru34.site  (type=1, from 10.0.76.109)
+  www.farmprogress.com  (type=1, from 10.0.76.193)
+  fonts.googleapis.com  (type=1, from 10.0.76.193)
+
+--- DNS A-record answers (domain -> IP) ---
+  phenomenoc-dc.phenomenoc.com  ->  10.0.76.6
+  Phenomenoc-DC.phenomenoc.com  ->  10.0.76.6
+  a1961.g2.akamai.net  ->  23.63.249.186
+  a1961.g2.akamai.net  ->  23.63.249.194
+  a1961.g2.akamai.net  ->  23.63.249.144
+  dns.msftncsi.com  ->  131.107.255.255
+  beef2live.com  ->  35.226.156.55
+  googleapis.l.google.com  ->  172.217.164.74
+  googleapis.l.google.com  ->  172.217.0.74
+  googleapis.l.google.com  ->  74.125.21.95
+  googleapis.l.google.com  ->  64.233.185.95
+  www.google.com  ->  64.233.185.103
+  www.google.com  ->  64.233.185.147
+  www.google.com  ->  64.233.185.105
+  www.google.com  ->  64.233.185.106
+  www.google.com  ->  64.233.185.104
+  www.google.com  ->  64.233.185.99
+  portal.farmcentric.com  ->  35.226.156.55
+  www-googletagmanager.l.google.com  ->  173.194.219.97
+  pagead.l.doubleclick.net  ->  172.217.2.34
+  pagead46.l.doubleclick.net  ->  173.194.219.156
+  pagead46.l.doubleclick.net  ->  173.194.219.154
+  pagead46.l.doubleclick.net  ->  173.194.219.155
+  pagead46.l.doubleclick.net  ->  173.194.219.157
+  www-google-analytics.l.google.com  ->  74.125.138.138
+  www-google-analytics.l.google.com  ->  74.125.138.102
+  www-google-analytics.l.google.com  ->  74.125.138.100
+  www-google-analytics.l.google.com  ->  74.125.138.101
+  www-google-analytics.l.google.com  ->  74.125.138.113
+  www-google-analytics.l.google.com  ->  74.125.138.139
+  scontent.xx.fbcdn.net  ->  31.13.65.7
+  cse.google.com  ->  74.125.136.102
+  cse.google.com  ->  74.125.136.113
+  cse.google.com  ->  74.125.136.101
+  cse.google.com  ->  74.125.136.100
+  cse.google.com  ->  74.125.136.138
+  cse.google.com  ->  74.125.136.139
+  cs41.wac.edgecastcdn.net  ->  72.21.91.66
+  www.gstatic.com  ->  64.233.185.94
+  clients.l.google.com  ->  74.125.136.101
+  clients.l.google.com  ->  74.125.136.100
+  clients.l.google.com  ->  74.125.136.138
+  clients.l.google.com  ->  74.125.136.102
+  clients.l.google.com  ->  74.125.136.139
+  clients.l.google.com  ->  74.125.136.113
+  gstaticadssl.l.google.com  ->  216.58.193.163
+  syndication.twitter.com  ->  104.244.42.8
+  syndication.twitter.com  ->  104.244.42.72
+  syndication.twitter.com  ->  104.244.42.136
+  syndication.twitter.com  ->  104.244.42.200
+  e-0001.e-msedge.net  ->  13.107.5.80
+  dual-a-0001.a-msedge.net  ->  204.79.197.200
+  dual-a-0001.a-msedge.net  ->  13.107.21.200
+  ssl.gstatic.com  ->  172.217.2.35
+  ads-bid.l.doubleclick.net  ->  64.233.185.155
+  ads-bid.l.doubleclick.net  ->  64.233.185.157
+  ads-bid.l.doubleclick.net  ->  64.233.185.154
+  ads-bid.l.doubleclick.net  ->  64.233.185.156
+  star-mini.c10r.facebook.com  ->  31.13.65.36
+  letsdoitquick.site  ->  91.235.129.60
+  cs9.wpc.v0cdn.net  ->  72.21.81.200
+  fghjkmgru34.site  ->  8.209.83.76
+  googleadapis.l.google.com  ->  64.233.185.95
+  d3569ngd5kwbnf.cloudfront.net  ->  54.192.207.126
+  d3569ngd5kwbnf.cloudfront.net  ->  54.192.207.150
+  d3569ngd5kwbnf.cloudfront.net  ->  54.192.207.79
+  d3569ngd5kwbnf.cloudfront.net  ->  54.192.207.51
+
+--- HTTP requests (46 total) ---
+  2019-06-22 23:46:38.038003  10.0.76.193 -> 23.63.249.186:80  Host: www.msftncsi.com  |  GET /ncsi.txt HTTP/1.1
+      User-Agent: Microsoft NCSI
+  2019-06-22 23:47:40.782613  10.0.76.193 -> 35.226.156.55:80  Host: beef2live.com  |  GET /story-anatomy-beef-cattle-154-104357 HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:47:41.361127  10.0.76.193 -> 172.217.164.74:80  Host: ajax.googleapis.com  |  GET /ajax/libs/jquery/1.12.4/jquery.min.js HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:47:41.881869  10.0.76.193 -> 172.217.2.34:80  Host: www.googleadservices.com  |  GET /pagead/conversion_async.js HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:47:42.327050  10.0.76.193 -> 74.125.138.138:80  Host: www.google-analytics.com  |  GET /ga.js HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:47:42.637770  10.0.76.193 -> 74.125.138.138:80  Host: www.google-analytics.com  |  GET /__utm.gif?utmwv=5.7.2&utms=3&utmn=2054411788&utmhn=beef2live.com&utmcs=utf-8&utmsr=1280x768&utmvp=784x368&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=28.0%20r0&utmdt=Anatomy%20Of%20Beef%20Cattle%20-%20Beef2Live%20%7C%20Eat%20Beef%20*%20Live%20Better&utmhid=1640095073&utmr=-&utmp=%2Fstory-anatomy-beef-cattle-154-104357&utmht=1561246853867&utmac=UA-30967511-2&utmcc=__utma%3D100166541.469103404.1561246568.1561246568.1561246568.1%3B%2B__utmz%3D100166541.1561246568.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~ HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:47:42.641599  10.0.76.193 -> 74.125.138.138:80  Host: www.google-analytics.com  |  GET /__utm.gif?utmwv=5.7.2&utms=4&utmn=1186798248&utmhn=beef2live.com&utmcs=utf-8&utmsr=1280x768&utmvp=784x368&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=28.0%20r0&utmdt=Anatomy%20Of%20Beef%20Cattle%20-%20Beef2Live%20%7C%20Eat%20Beef%20*%20Live%20Better&utmhid=1640095073&utmr=-&utmp=%2Fstory-anatomy-beef-cattle-154-104357&utmht=1561246853872&utmac=UA-53809902-1&utmcc=__utma%3D100166541.469103404.1561246568.1561246568.1561246568.1%3B%2B__utmz%3D100166541.1561246568.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmmt=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~ HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:47:42.717994  10.0.76.193 -> 31.13.65.7:80  Host: connect.facebook.net  |  GET /en_US/all.js HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:47:43.809346  10.0.76.193 -> 74.125.136.102:80  Host: cse.google.com  |  GET /adsense/search/async-ads.js HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:47:43.972756  10.0.76.193 -> 74.125.136.101:80  Host: clients1.google.com  |  GET /generate_204 HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:47:45.487488  10.0.76.193 -> 13.107.21.200:80  Host: www.bing.com  |  GET /favicon.ico HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:48:04.617933  10.0.76.109 -> 91.235.129.60:80  Host: letsdoitquick.site  |  GET / HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:48:05.237383  10.0.76.109 -> 37.46.135.170:80  Host: 37.46.135.170  |  GET /?MTQwMjg3&ZqHoAiAzR&ff5sdfds=xXjQMvWUbRXQDJ3EKvPcT6NMMVHRFUCL2YedmrHZefjac1WkzrvFTF_7ozKATQSG6_ptdfJ&ZJull=known&ClGaW=known&PETxiFG=community&sMRo=wrapped&HuUMPiKpj=heartfelt&LfBYp=criticized&trlQvmgW=wrapped&t4tsdfsg4=WDQCwhBfTcwJom9xbAw4b8futjEnVzkCb1p6H-hGPYwNDrcSdRuVo31ykxrkkQPshg1TH4GI&QVQi=detonator&scUJaJdNW=golfer&eaqBiV=referred&eunX=heartfelt&lTfNSvPso=wrapped&cuxKdC=constitution&TGbNZdI=known&YAVpMLL=difference&KcBDoegcFMTU1OTU1 HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:48:07.553767  10.0.76.109 -> 37.46.135.170:80  Host: 37.46.135.170  |  GET /?MTg0MzEy&UOViokhlz&aposAqGuAYQhGJO=difference&JhdAxqxZHPMIkeK=difference&dsWGIXdorJRe=detonator&qIHWsvSKCKW=referred&zoZXprPP=known&lbepukXxCTe=vest&WQLDTkVC=heartfelt&hziRqmWCrsMaus=constitution&evkJcGbq=referred&ff5sdfds=w3bQMvXcJxjQFYbGMvzDSKNbNknWHViPxomG9MildZeqZGX_k7vDfF-qoVXcCgWRxfQ&sIusXJLxas=community&DFWEKmZUkxxeB=golfer&t4tsdfsg4=ufOADNQToihfRLwJpzo1fUlIUof-ni0nRyxSa0p7Ur0HeYAMU9qKcELk82VzFjLdTJvs&gSlEAaKzG=criticized&sXTxIOfYGsZL=golfer&qSnbemVoJtsl=criticized&UjrvHHTG=blackmail&bpiAMNrElSNjI0OTM5 HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:48:08.688439  10.0.76.109 -> 37.46.135.170:80  Host: 37.46.135.170  |  GET /favicon.ico HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:48:10.335491  10.0.76.109 -> 37.46.135.170:80  Host: 37.46.135.170  |  GET /?MzU4NjA0&kaZDWzI&AkwenzFXp=perpetual&EIDOXmpaHLIMQ=blackmail&PmNkusRzUKjdxi=known&embBMhXHEVqMM=already&nvQgwJI=community&PtVAedNAUU=difference&jDCoPDPCLNkpJ=heartfelt&SJjNZIaGHxK=known&vvHefJ=heartfelt&t4tsdfsg4=PAVMb_q6p3EiEnR6U0pGB_xyNZgITqZucEbg_2lT3ybZGJsJ1kx_R6GcBxewtW10Z6AwalanCH6fAnUctFEsxYQ&IJbAFjBSlWY=heartfelt&hyYviEG=criticized&ff5sdfds=xHjQMrnYbRbFFYTfKPPEUKNEMUjWA0-KwYmZhafVF5mxFDHGpbX1FxXspVSdCFSEmvRvdLUHIwSh1U3ASwNizYk&SfDdcBJQLntZc=everyone&ZwddKCJISaTB=blackmail&IqnFgRnJ=known&WWmEHUqy=vest&niUheyKPRbLYEdyNjEwOTgy HTTP/1.1
+      User-Agent: Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+  2019-06-22 23:48:16.354584  10.0.76.109 -> 37.46.135.170:80  Host: 37.46.135.170  |  GET /?NDk4MTE5&tmCVgJMQbeHjv&znbcjFaUOmZy=vest&aTijcut=blackmail&kBgQawTJSFlOAu=difference&NCThQKrrQh=blackmail&lvQmqFyq=constitution&zCrDVEX=known&wLBVVjhJGAWC=detonator&PLFPhyyqZCa=known&lfJYgkH=perpetual&t4tsdfsg4=YPAVwb_q6p3EaEnRGU0p6B_x2NZgMTqZWcEbk_2lv3ybhGJs11kx_R6GYBxewtUFMT4wMWmKjKHqj58EgwV0sC&nVJnyJYij=vest&eZvTJjAeJ=professional&ISzjHlO=strategy&tAMbBJnq=referred&bwgDFqD=strategy&kdPRkesmuQ=heartfelt&ff5sdfds=xHjQMrbYbRfFFYvfKPzEUKxEMUbWA0GKwYeZhajVF5exFD7Gpbr1FxXspVWdCFWEmvtvdLUHIwuh1UPASwJizY&kxbRJWYrNpZbNlVMzU3NDAz HTTP/1.1
+      User-Agent: �
+  2019-06-22 23:48:23.076396  10.0.76.109 -> 8.209.83.76:80  Host: fghjkmgru34.site  |  GET /gQBljYzDJBnrt4JX/gate.php HTTP/1.1
+      User-Agent: ?
+  2019-06-22 23:48:28.760924  10.0.76.109 -> 8.209.83.76:80  Host: fghjkmgru34.site  |  POST /gQBljYzDJBnrt4JX/gate.php HTTP/1.1
+      User-Agent: ?
+  2019-06-22 23:49:50.600547  10.0.76.193 -> 35.226.156.55:80  Host: beef2live.com  |  GET /markets HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:49:51.280854  10.0.76.193 -> 35.226.156.55:80  Host: beef2live.com  |  GET /style/templates/page/markets.css?v=1 HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:49:51.481400  10.0.76.193 -> 35.226.156.55:80  Host: beef2live.com  |  GET /style/marketsResponsiveNoSidebar.css HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:49:51.619220  10.0.76.193 -> 35.226.156.55:80  Host: beef2live.com  |  GET /scripts/bootstrap.js HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:49:51.999359  10.0.76.193 -> 35.226.156.55:80  Host: beef2live.com  |  GET /scripts/jquery.selectbox-0.2.js HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:49:51.999939  10.0.76.193 -> 35.226.156.55:80  Host: beef2live.com  |  GET /style/templates/controls/tabbedQuotesResponsive.css?v=2 HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:49:52.006900  10.0.76.193 -> 74.125.138.138:80  Host: www.google-analytics.com  |  GET /__utm.gif?utmwv=5.7.2&utms=5&utmn=1173868244&utmhn=beef2live.com&utmcs=utf-8&utmsr=1280x768&utmvp=784x368&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=28.0%20r0&utmdt=Markets%20-%20Beef2Live%20%7C%20Eat%20Beef%20*%20Live%20Better&utmhid=270011893&utmr=0&utmp=%2Fmarkets&utmht=1561246982849&utmac=UA-30967511-2&utmcc=__utma%3D100166541.469103404.1561246568.1561246568.1561246568.1%3B%2B__utmz%3D100166541.1561246568.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~ HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:49:52.007298  10.0.76.193 -> 74.125.138.138:80  Host: www.google-analytics.com  |  GET /__utm.gif?utmwv=5.7.2&utms=6&utmn=1716294095&utmhn=beef2live.com&utmcs=utf-8&utmsr=1280x768&utmvp=784x368&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=28.0%20r0&utmdt=Markets%20-%20Beef2Live%20%7C%20Eat%20Beef%20*%20Live%20Better&utmhid=270011893&utmr=0&utmp=%2Fmarkets&utmht=1561246982853&utmac=UA-53809902-1&utmcc=__utma%3D100166541.469103404.1561246568.1561246568.1561246568.1%3B%2B__utmz%3D100166541.1561246568.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmmt=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~ HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:49:52.034702  10.0.76.193 -> 35.226.156.55:80  Host: beef2live.com  |  GET /scripts/amcharts/amcharts.js HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:49:52.034821  10.0.76.193 -> 35.226.156.55:80  Host: portal.farmcentric.com  |  GET /images/pointerup.png HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:49:52.036635  10.0.76.193 -> 35.226.156.55:80  Host: portal.farmcentric.com  |  GET /images/arrow-down-large.png HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:49:52.064267  10.0.76.193 -> 35.226.156.55:80  Host: beef2live.com  |  GET /scripts/amcharts/serial.js HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:49:52.075452  10.0.76.193 -> 35.226.156.55:80  Host: beef2live.com  |  GET /scripts/amcharts/themes/light.js HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:49:52.085467  10.0.76.193 -> 35.226.156.55:80  Host: beef2live.com  |  GET /images/options.png HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:49:52.525706  10.0.76.193 -> 35.226.156.55:80  Host: beef2live.com  |  GET /images/clear.gif HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:49:53.347532  10.0.76.193 -> 35.226.156.55:80  Host: beef2live.com  |  GET /style/templates/images/chgDnArrow.png HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:49:53.347726  10.0.76.193 -> 35.226.156.55:80  Host: beef2live.com  |  GET /style/templates/images/chgUpArrow.png HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:49:53.479635  10.0.76.193 -> 35.226.156.55:80  Host: beef2live.com  |  GET /images/selectbox-sprite.png HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:49:53.479843  10.0.76.193 -> 35.226.156.55:80  Host: beef2live.com  |  GET /scripts/jquery-ui/images/ui-bg_flat_75_ffffff_40x100.png HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:49:53.631042  10.0.76.193 -> 35.226.156.55:80  Host: beef2live.com  |  GET /scripts/jquery-ui/images/ui-bg_highlight-soft_75_cccccc_1x100.png HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:49:53.644758  10.0.76.193 -> 35.226.156.55:80  Host: beef2live.com  |  GET /scripts/jquery-ui/images/ui-icons_222222_256x240.png HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+  2019-06-22 23:49:53.644968  10.0.76.193 -> 35.226.156.55:80  Host: beef2live.com  |  GET /scripts/jquery-ui/images/ui-bg_glass_75_e6e6e6_1x400.png HTTP/1.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
